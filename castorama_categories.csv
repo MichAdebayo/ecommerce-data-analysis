@@ -371,10 +371,10 @@ panier-a-linge,True,https://www.castorama.fr/salle-de-bains-et-wc/accessoires-de
 Etagère cases,False,https://www.castorama.fr/rangement-dressing/meuble-de-rangement/etagere-cube/structure-pour-cube-de-rangement/cat_id_0001550.cat
 Tapis salon,False,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-salon/cat_id_0001387.cat
 Paillasson intérieur,False,https://www.castorama.fr/paillasson-interieur/cat_id_0003085.cat
-tapis,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-chambre-enfant/cat_id_0001390.cat
-tapis,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-cuisine/cat_id_0001389.cat
-tapis,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-salon/cat_id_0001387.cat
-tapis,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-chambre/cat_id_0001388.cat
+tapis-chambre-enfant,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-chambre-enfant/cat_id_0001390.cat
+tapis-cuisine,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-cuisine/cat_id_0001389.cat
+tapis-salon,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-salon/cat_id_0001387.cat
+tapis-chambre,True,https://www.castorama.fr/decoration-interieure/decoration-textile/tapis-et-paillasson/tapis/tapis-chambre/cat_id_0001388.cat
 anti-mousse,True,https://www.castorama.fr/materiaux-et-gros-oeuvre/materiaux/produit-d-etancheite/anti-mousse/cat_id_2588.cat
 etancheite-de-la-facade,True,https://www.castorama.fr/materiaux-et-gros-oeuvre/materiaux/revetement-de-la-facade/etancheite-de-la-facade/cat_id_4068.cat
 membrane-detancheite-epdm,True,https://www.castorama.fr/materiaux-et-gros-oeuvre/toiture-charpente-et-couverture/membrane-detancheite-epdm/cat_id_0001217.cat
@@ -383,7 +383,7 @@ etancheite-des-fondations,True,https://www.castorama.fr/materiaux-et-gros-oeuvre
 etancheite-du-sol,True,https://www.castorama.fr/materiaux-et-gros-oeuvre/materiaux/produit-d-etancheite/etancheite-du-sol/cat_id_4072.cat
 taquet,True,https://www.castorama.fr/rangement-dressing/rangement-garage-et-cave/tablette-et-support/taquet/cat_id_5078.cat
 Crémaillère simple,False,https://www.castorama.fr/cremaillere-simple/cat_id_0003629.cat
-equerre,True,https://www.castorama.fr/rangement-dressing/rangement-interieur/equerre/cat_id_664.cat
+Équerre étagère,True,https://www.castorama.fr/rangement-dressing/rangement-interieur/equerre/cat_id_664.cat
 Cheville universelle,False,https://www.castorama.fr/cheville-universelle/cat_id_0005013.cat
 etancheite-de-la-toiture,True,https://www.castorama.fr/materiaux-et-gros-oeuvre/materiaux/produit-d-etancheite/etancheite-de-la-toiture/cat_id_4069.cat
 store-venitien,True,https://www.castorama.fr/decoration-interieure/store/store-venitien/cat_id_1107.cat
@@ -1642,10 +1642,10 @@ bac-et-grille-de-peintre,True,https://www.castorama.fr/peinture/outils-du-peintr
 rouleau-a-peinture,True,https://www.castorama.fr/peinture/outils-du-peintre/rouleau-a-peinture/cat_id_5023.cat
 Pinceau plat,False,https://www.castorama.fr/pinceau-plat/cat_id_0004321.cat
 protection,True,https://www.castorama.fr/peinture/peinture-interieure/preparation-des-murs-et-plafonds/protection/cat_id_2165.cat
-finition-meuble-et-objet,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/dorure/cat_id_1369.cat
-finition-meuble-et-objet,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/huile/cat_id_1707.cat
-finition-meuble-et-objet,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/cire/cat_id_1830.cat
-finition-meuble-et-objet,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/vernis/cat_id_939.cat
+dorure,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/dorure/cat_id_1369.cat
+huile,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/huile/cat_id_1707.cat
+cire,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/cire/cat_id_1830.cat
+vernis,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/finition-meuble-et-objet/vernis/cat_id_939.cat
 peinture-pour-meuble,True,https://www.castorama.fr/peinture/peinture-interieure/relooking-meuble-et-objet/peinture-pour-meuble/cat_id_4254.cat
 accessoire-de-fixation-crochet-cable-attache,True,https://www.castorama.fr/decoration-interieure/decoration-murale-et-accessoires-deco/accessoire-de-fixation-crochet-cable-attache/cat_id_3951.cat
 Poignée de porte intérieure,False,https://www.castorama.fr/decoration-interieure/decoration-murale-et-accessoires-deco/poignee-et-bouton/poignee-de-porte/cat_id_1011.cat
@@ -1730,12 +1730,12 @@ Pince coupante,False,https://www.castorama.fr/pince-coupante/cat_id_0003652.cat
 tournevis,True,https://www.castorama.fr/outillage/outillage-a-main/tournevis/cat_id_1770.cat
 Douille,False,https://www.castorama.fr/douille/cat_id_0003653.cat
 Sac à outils,False,https://www.castorama.fr/sac-a-outils/cat_id_0003633.cat
-lame-et-accessoire-de-scie,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-sauteuse/cat_id_1524.cat
-lame-et-accessoire-de-scie,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-circulaire/cat_id_1438.cat
-lame-et-accessoire-de-scie,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-a-onglet/cat_id_315.cat
-lame-et-accessoire-de-scie,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-a-ruban/cat_id_5990.cat
-lame-et-accessoire-de-scie,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-a-chantourner/cat_id_5991.cat
-lame-et-accessoire-de-scie,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-sabre/cat_id_5992.cat
+lame-de-scie-sauteuse,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-sauteuse/cat_id_1524.cat
+lame-de-scie-circulaire,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-circulaire/cat_id_1438.cat
+lame-de-scie-a-onglet,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-a-onglet/cat_id_315.cat
+lame-de-scie-a-ruban,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-a-ruban/cat_id_5990.cat
+lame-de-scie-a-chantourner,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-a-chantourner/cat_id_5991.cat
+lame-de-scie-sabre,True,https://www.castorama.fr/outillage/outillage-electroportatif/accessoire-et-consommable/lame-et-accessoire-de-scie/lame-de-scie-sabre/cat_id_5992.cat
 Marqueur,False,https://www.castorama.fr/marqueur/cat_id_0003708.cat
 Cordeau de maçon,False,https://www.castorama.fr/cordeau-de-macon/cat_id_0003715.cat
 pied-a-coulisse,True,https://www.castorama.fr/outillage/outillage-a-main/metre-niveau-et-outils-de-mesure-et-tracage/pied-a-coulisse/cat_id_5300.cat
@@ -1902,7 +1902,7 @@ patin-et-embout,True,https://www.castorama.fr/quincaillerie/quincaillerie-de-meu
 pied-patin-et-embout,True,https://www.castorama.fr/quincaillerie/quincaillerie-de-meuble/pied-patin-et-embout/cat_id_2963.cat
 Ruban adhésif d'emballage,False,https://www.castorama.fr/ruban-adhesif-demballage/cat_id_0004983.cat
 ferrure,True,https://www.castorama.fr/quincaillerie/fixation-et-quincaillerie-d-assemblage/ferrure/cat_id_2955.cat
-equerre,True,https://www.castorama.fr/quincaillerie/fixation-et-quincaillerie-d-assemblage/equerre/cat_id_2954.cat
+Equerre de fixation,True,https://www.castorama.fr/quincaillerie/fixation-et-quincaillerie-d-assemblage/equerre/cat_id_2954.cat
 tourillon-et-lamello,True,https://www.castorama.fr/quincaillerie/fixation-et-quincaillerie-d-assemblage/tourillon-et-lamello/cat_id_1769.cat
 Serrure à encastrer,False,https://www.castorama.fr/serrure-a-encastrer/cat_id_0004881.cat
 Serrure en applique,False,https://www.castorama.fr/quincaillerie/serrure-verrou/serrure-en-applique/cat_id_3454.cat
