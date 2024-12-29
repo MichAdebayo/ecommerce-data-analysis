@@ -84,7 +84,7 @@ In this project, I applied data cleaning and mining techniques on a dataset scra
 - Products belong to **16 distinct categories**, **52 subcategories**, **150 subsubcategories**, and **75	subsubsubcategories**.
 
 ### **Product Distribution**
-
+![alt text](number_of_products_by_category.png)
 - The **"cuisine"** category has the **fewest products (30)**, while **"salle_de_bains_et_wc"** has the **most products (8,450)**.
 
 - These numbers highlight the diversity in product offerings across different categories.
@@ -95,17 +95,35 @@ In this project, I applied data cleaning and mining techniques on a dataset scra
   - Maximum price: €5,890
 
 - Categories with noteworthy price characteristics:
+
+![alt text](mean_and_std_by_category.png)
+
   - **Lowest average price**: €12 in **"droguerie_entretien_de_la_maison"**.  
   - **Highest average price**: €493 in **"maison_connectee_domotique_et_objet_connecte"**.  
+  ![alt text](price_range_by_category.png)
+
   - **Smallest price range**: **"peinture"**.  
   - **Largest price range**: **"salle_de_bains_et_wc"**.
+
   - Some of the **cheapest products** include: stamped steel bracket (€0.50), manual filling pump for all fluids (€2.60), and cotton mop head replacements (€1.60).
   - Some of the **most expensive products** include: dual acrylic whirlpool bathtub (€5,890), pellet stove (€3,190), and bottle storage cabinet for wine cellars or wine shops (€3,425).
 
 
-### **Price Correlations Between Categories**
+### **Price Correlations Between Categories (with > 500 products)**
 
-- Strong correlations were identified between the prices of certain categories:
+![alt text](heatmap_of_corr_matrix.png)
+
+- Strong correlations were identified between the prices of certain categories. For example:
   - When prices in **"salle_de_bains_et_wc"** increase, prices in **"decoration_interieure"** also tend to rise.
   - Conversely, prices in **"quincaillerie"** tend to decrease as prices in **"salle_de_bains_et_wc"** increase.
 - Such correlations may indicate shared market trends, pricing strategies, or complementary product relationships.
+
+
+## **Conclusion**
+This project provided valuable insights into product distribution and pricing trends across different categories in Castorama’s catalog. By understanding these patterns, businesses can better tailor their pricing strategies and inventory management to meet consumer demands and market dynamics.
+
+---
+**Future Work**:
+- Expand the dataset by scraping additional attributes such as customer reviews, stock availability, or promotional offers.
+- Implement predictive models to forecast product demand or price fluctuations.
+- Conduct deeper analyses into subcategory-level trends for actionable business intelligence.
