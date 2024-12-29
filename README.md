@@ -21,6 +21,8 @@ As a Data Analyst/Data Engineer, your role is to clean, prepare, and analyze thi
 
 ## Project Structure
 
+* `assets`: Contains data viz figures.
+
 * `brief_pandas.ipynb`: File to execute data cleaning, data mining, data anlysis, and data vizualization procedures. 
 
 * `requirements.txt`: List of necessary python dependencies.
@@ -84,7 +86,7 @@ In this project, I applied data cleaning and mining techniques on a dataset scra
 - Products belong to **16 distinct categories**, **52 subcategories**, **150 subsubcategories**, and **75	subsubsubcategories**.
 
 ### **Product Distribution**
-![alt text](number_of_products_by_category.png)
+![alt text](assets/number_of_products_by_category.png)
 - The **"cuisine"** category has the **fewest products (30)**, while **"salle_de_bains_et_wc"** has the **most products (8,450)**.
 
 - These numbers highlight the diversity in product offerings across different categories.
@@ -96,11 +98,11 @@ In this project, I applied data cleaning and mining techniques on a dataset scra
 
 - Categories with noteworthy price characteristics:
 
-![alt text](mean_and_std_by_category.png)
+![alt text](assets/mean_and_std_by_category.png)
 
   - **Lowest average price**: €12 in **"droguerie_entretien_de_la_maison"**.  
   - **Highest average price**: €493 in **"maison_connectee_domotique_et_objet_connecte"**.  
-  ![alt text](price_range_by_category.png)
+  ![alt text](assets/price_range_by_category.png)
 
   - **Smallest price range**: **"peinture"**.  
   - **Largest price range**: **"salle_de_bains_et_wc"**.
@@ -111,7 +113,7 @@ In this project, I applied data cleaning and mining techniques on a dataset scra
 
 ### **Price Correlations Between Categories (with > 500 products)**
 
-![alt text](heatmap_of_corr_matrix.png)
+![alt text](assets/heatmap_of_corr_matrix.png)
 
 - Strong correlations were identified between the prices of certain categories. For example:
   - When prices in **"salle_de_bains_et_wc"** increase, prices in **"decoration_interieure"** also tend to rise.
@@ -122,8 +124,12 @@ In this project, I applied data cleaning and mining techniques on a dataset scra
 ## **Conclusion**
 This project provided valuable insights into product distribution and pricing trends across different categories in Castorama’s catalog. By understanding these patterns, businesses can better tailor their pricing strategies and inventory management to meet consumer demands and market dynamics.
 
----
-**Future Work**:
+
+## **Future Work**:
 - Expand the dataset by scraping additional attributes such as customer reviews, stock availability, or promotional offers.
 - Implement predictive models to forecast product demand or price fluctuations.
 - Conduct deeper analyses into subcategory-level trends for actionable business intelligence.
+
+## Author
+
+- Michael Adebayo
