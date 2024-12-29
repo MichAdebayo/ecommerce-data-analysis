@@ -1,135 +1,155 @@
-# **Data Analysis with Pandas**
 
-## Project Overview
+# **Projet de Nettoyage et d'Analyse des Données avec Pandas**
+![alt text](assets/castorama.png)
 
-This project analyses data scraped from an e-commerce website (Castorama; for IP reasons, the data cannot be shared). The scraped data consists of two CSV files:
+## Aperçu du Projet
 
-- `categories.csv`: Contains information about product categories, page_list status, and urls.
+Ce projet analyse des données extraites d'un site e-commerce (Castorama ; pour des raisons de propriété intellectuelle, les données ne peuvent pas être partagées). Les données extraites se composent de deux fichiers CSV :
 
-- `products.csv`: Contains product details such as unique_id, categories, subcategories, titles, prices, and urls.
+- `categories.csv`: Contient des informations sur les catégories de produits, le statut de la liste des pages et les URLs.
 
-As a Data Analyst/Data Engineer, your role is to clean, prepare, and analyze this data to provide insights into the current state of the company's products.
+- `products.csv`: Contient des détails sur les produits tels que l'identifiant unique, les catégories, les sous-catégories, les titres, les prix et les URLs.
 
-## Objectives  
+En tant qu'Analyste de Données/Ingénieur en Données, votre rôle est de nettoyer, préparer et analyser ces données afin de fournir des informations sur l'état actuel des produits de l'entreprise.
 
-- **Load the data** from scraping (the CSV files categories.csv and products.csv).  
-- **Clean and prepare** this data (correct formats, handle missing values, manage data types).  
-- **Explore the data** and extract key insights (descriptive statistics, groupby, statistics, etc.).  
-- **Format variables (where necessary)** to facilitate analysis (category labels, price correction, etc.).  
-- **(Bonus 1) Analyze pricing** in more depth by grouping products by categories and calculating statistics (mean, min, max, etc.).  
-- **(Bonus 2) Visualize the results** of your analysis through simple graphs (histogram, scatter plot, bar plot, etc.) to better communicate your findings. 
+## Objectifs  
 
-## Project Structure
+- **Charger les données** issues du scraping (les fichiers CSV categories.csv et products.csv). 
+- **Nettoyer et préparer** ces données (corriger les formats, gérer les valeurs manquantes, gérer les types de données). 
+- **Explorer les données** et extraire des informations clés (statistiques descriptives, groupby, statistiques, etc.).
+- **Mettre en forme les variables (si nécessaire)**  pour faciliter l'analyse (étiquettes de catégories, correction des prix, etc.).
+- **(Bonus 1) Analyser les prix** de manière plus approfondie en regroupant les produits par catégories et en calculant des statistiques (moyenne, min, max, etc.). 
+- **(Bonus 2) Visualiser les résultats** de votre analyse à l'aide de graphiques simples (histogramme, scatter plot, bar plot, etc.) pour mieux communiquer vos conclusions.
 
-* `assets`: Contains data viz figures.
+## Structure du Projet
 
-* `brief_pandas.ipynb`: File to execute data cleaning, data mining, data anlysis, and data vizualization procedures. 
+* `assets`: Contient les figures de visualisation des données.
 
-* `requirements.txt`: List of necessary python dependencies.
+* `brief_pandas.ipynb`: Fichier pour exécuter les procédures de nettoyage des données, d'exploration des données, d'analyse des données et de visualisation des données. 
 
-## Installing dependencies
+* `requirements.txt`: Liste des dépendances Python nécessaires.
+
+## Installation des dépendances
 ```bash
 pip install -r requirements.txt
 ```
 
-## Key Processing Techniques and Tools
-1. **Initial data exploration and validation**
-   - Load data.
-   - View data shape, head, summary stats, info, tail.
-   - Check for missing values.
-   - Check for duplicates.
-   - Review data for unusual text or numerical format errors.
+## Techniques et Outils Clés de Traitement
 
-2. **Data Cleaning**
-   - Normalize texts.
-   - Remove text duplicates.
-   - Handle encoding issues.
-   - Handle NAs vs NaNs issues.
-   - Remove diacritic duplicates.
-   - Clean category and product dataset texts.
+1. **Exploration et Validation Initiale des Données**
 
-3. **Data Transformation**
-   - Remove accents.
-   - Standardize text formats.
-   - Format variables data types.
+   - Charger les données.
+   - Voir la forme des données, l'en-tête, les statistiques résumées, les informations, le bas.
+   - Vérifier les valeurs manquantes.
+   - Vérifier les doublons.
+   - Examiner les données pour des erreurs de format texte ou numérique inhabituelles.
 
-4. **Data Mining**
-   - Extract insights through grouping, filtering, and exploring categorical and numerical features.
-   - Prepare data for analysis.
+2. **Nettoyage des Données**
 
-5. **Visualization**
-   - Leveraged Python libraries such as Matplotlib and Seaborn for graphical representation of insights.
-   - **Correlation Analysis**: Used statistical methods to identify relationships between product categories and their prices.
+   - Normaliser les textes.
+   - Supprimer les doublons de texte.
+   - Gérer les problèmes d'encodage.
+   - Gérer les problèmes de NAs vs NaNs.
+   - Gérer les erreurs.
+   - Supprimer les doublons diacritiques.
+   - Nettoyer les textes des catégories et des produits.
+
+3. **Transformation des Données**
+
+   - Supprimer les accents.
+   - Standardiser les formats de texte.
+   - Mettre en forme les types de données des variables.
+
+4. **Exploration des Données**
+
+   - Extraire des informations en regroupant, filtrant et explorant les caractéristiques catégorielles et numériques.
+   - Préparer les données pour l'analyse.
+
+5. **Visualisation**
+
+   - Utilisation de bibliothèques Python telles que Matplotlib et Seaborn pour la représentation graphique des informations.
+   - **Analyse de Corrélation** : Utilisation de méthodes statistiques pour identifier les relations entre les catégories de produits et leurs prix.
 
 
-## Result summary
+## Résumé des Résultats
 
-In this project, I applied data cleaning and mining techniques on a dataset scraped from an e-commerce website (Castorama). Following this, data analysis was conducted to uncover patterns and insights within the dataset. Key observations are reported below:
+Dans ce projet, j'ai appliqué des techniques de nettoyage et d'exploration des données sur un ensemble de données extrait d'un site e-commerce (Castorama). Ensuite, une analyse des données a été réalisée pour découvrir des motifs et des informations dans l'ensemble de données. Les principales observations sont rapportées ci-dessous :
 
-### **Dataset Overview**
+### **Aperçu de l'Ensemble de Données**
 
-- The category dataset includes **1372 categories**, each described by attributes such as:
-  - `category`: The category of the page. Note that "category" in this context includes both parent and child categories. 
-  - `is_page_list`:(bool) States whether a category link is a page list link. A true page_list link is a link that takes you directly to where all products in that category are displayed. 
-  - `url`: The website link to that category
+- L'ensemble de données des catégories comprend **1372 catégories**, chacune décrite par des attributs tels que ::
 
-- The product dataset includes **28,308 products**, each described by attributes such as:
-  - `unique_id`: An id identying each product
-  - `category`: Product's parent category
-  - `subcategory`: Product's parent 1st-level child
-  - `subsubcategory`: Product's parent 2nd-level child
-  - `subsubsubcategory`: Product's parent 3rd-level child
-  - `title`: Product name
-  - `price`: Product price
-  - `url`: Link to product page
+  - `category`: La catégorie de la page. Notez que "category" dans ce contexte inclut à la fois les catégories parent et enfant.
 
-- Products belong to **16 distinct categories**, **52 subcategories**, **150 subsubcategories**, and **75	subsubsubcategories**.
+  - `is_page_list`:(bool) Indique si le lien de la catégorie est un lien de liste de pages. Un lien `page_list` vrai est un lien qui vous mène directement à l'endroit où tous les produits de cette catégorie sont affichés.
 
-### **Product Distribution**
+  - `url`: Le lien vers la page de cette catégorie.
+
+- L'ensemble de données des produits comprend **28 308 produits**, chacun décrit par des attributs tels que:
+  - `unique_id`: Un identifiant unique pour chaque produit.
+  - `category`: Catégorie parente du produit.
+  - `subcategory`: Premier niveau enfant du produit.
+  - `subsubcategory`: Deuxième niveau enfant du produit.
+  - `subsubsubcategory`: Troisième niveau enfant du produit.
+  - `title`: Nom du produit.
+  - `price`: Prix du produit.
+  - `url`: Lien vers la page du produit.
+
+- Les produits appartiennent à **16 catégories distinctes**, **52 sous-catégories**, **150 sous-sous-catégories** et **75 sous-sous-sous-catégories**.
+
+### **Répartition des Produits**
+
 ![alt text](assets/number_of_products_by_category.png)
-- The **"cuisine"** category has the **fewest products (30)**, while **"salle_de_bains_et_wc"** has the **most products (8,450)**.
 
-- These numbers highlight the diversity in product offerings across different categories.
+- La catégorie **"cuisine"** a le **moindre nombre de produits (30)**, tandis que **"salle_de_bains_et_wc"** a le **plus grand nombre de produits (8 450)**.
 
-### **Price Analysis**
-- **Overall average price**: €145  
-  - Minimum price: €0.50  
-  - Maximum price: €5,890
+- Ces chiffres mettent en évidence la diversité des produits proposés dans les différentes catégories.
 
-- Categories with noteworthy price characteristics:
+### **Analyse des Prix**
+
+- **Prix moyen global**: €145  
+  - Prix minimum: €0.50  
+  - Prix maximum: €5,890
+
+- Catégories avec des caractéristiques de prix remarquables:
 
 ![alt text](assets/mean_and_std_by_category.png)
 
-  - **Lowest average price**: €12 in **"droguerie_entretien_de_la_maison"**.  
-  - **Highest average price**: €493 in **"maison_connectee_domotique_et_objet_connecte"**.  
+  - **Prix moyen le plus bas**: €12 dans **"droguerie_entretien_de_la_maison"**. 
+
+  - **Prix moyen le plus élevé **: €493** dans **"maison_connectee_domotique_et_objet_connecte"**.  
   ![alt text](assets/price_range_by_category.png)
 
-  - **Smallest price range**: **"peinture"**.  
-  - **Largest price range**: **"salle_de_bains_et_wc"**.
+  - **Categorie avec la plage de prix plus petite**: **"peinture"**.  
+  - **Categorie avec la plage de prix plus large**: **"salle_de_bains_et_wc"**.
 
-  - Some of the **cheapest products** include: stamped steel bracket (€0.50), manual filling pump for all fluids (€2.60), and cotton mop head replacements (€1.60).
-  - Some of the **most expensive products** include: dual acrylic whirlpool bathtub (€5,890), pellet stove (€3,190), and bottle storage cabinet for wine cellars or wine shops (€3,425).
+  - Certains des **produits les moins chers** incluent : support en acier estampé (0,50 €), pompe manuelle de remplissage pour tous les fluides (2,60 €) et remplacements de tête de balai en coton (1,60 €).
+
+  - Certains des **produits les plus chers** incluent : baignoire à remous acrylique double (5 890 €), poêle à granulés (3 190 €) et armoire de stockage pour bouteilles de caves ou magasins de vin (3 425 €).
 
 
-### **Price Correlations Between Categories (with > 500 products)**
+### **Corrélations de Prix Entre Catégories (avec > 500 produits)
+**
 
 ![alt text](assets/heatmap_of_corr_matrix.png)
 
-- Strong correlations were identified between the prices of certain categories. For example:
-  - When prices in **"salle_de_bains_et_wc"** increase, prices in **"decoration_interieure"** also tend to rise.
-  - Conversely, prices in **"quincaillerie"** tend to decrease as prices in **"salle_de_bains_et_wc"** increase.
-- Such correlations may indicate shared market trends, pricing strategies, or complementary product relationships.
+- Des corrélations fortes ont été identifiées entre les prix de certaines catégories. Par exemple :
+  - Lorsque les prix dans **"salle_de_bains_et_wc"** augmentent, les prix dans **"decoration_interieure"** tendent également à augmenter.
+  - À l'inverse, les prix dans **"quincaillerie"** ont tendance à diminuer lorsque les prix dans **"salle_de_bains_et_wc"** augmentent.
+- De telles corrélations peuvent indiquer des tendances de marché partagées, des stratégies de prix ou des relations complémentaires entre produits.
 
 
 ## **Conclusion**
-This project provided valuable insights into product distribution and pricing trends across different categories in Castorama’s catalog. By understanding these patterns, businesses can better tailor their pricing strategies and inventory management to meet consumer demands and market dynamics.
+
+Ce projet a permis d’obtenir des informations précieuses sur la répartition des produits et les tendances de prix dans les différentes catégories du catalogue de Castorama. En comprenant ces schémas, les entreprises peuvent mieux adapter leurs stratégies de prix et leur gestion des stocks pour répondre aux demandes des consommateurs et aux dynamiques du marché.
 
 
-## **Future Work**:
-- Expand the dataset by scraping additional attributes such as customer reviews, stock availability, or promotional offers.
-- Implement predictive models to forecast product demand or price fluctuations.
-- Conduct deeper analyses into subcategory-level trends for actionable business intelligence.
+## **Travaux Futurs**:
 
-## Author
+- Élargir l’ensemble de données en collectant des attributs supplémentaires tels que les avis clients, la disponibilité des stocks ou les offres promotionnelles.
+- Mettre en œuvre des modèles prédictifs pour anticiper la demande des produits ou les fluctuations de prix.
+- Réaliser des analyses approfondies sur les tendances au niveau des sous-catégories pour obtenir des renseignements exploitables pour l’entreprise.
+
+## Auteur
 
 - Michael Adebayo
