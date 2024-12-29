@@ -128,8 +128,7 @@ Dans ce projet, j'ai appliqué des techniques de nettoyage et d'exploration des 
   - Certains des **produits les plus chers** incluent : baignoire à remous acrylique double (5 890 €), poêle à granulés (3 190 €) et armoire de stockage pour bouteilles de caves ou magasins de vin (3 425 €).
 
 
-### **Corrélations de Prix Entre Catégories (avec > 500 produits)
-**
+### **Corrélations de Prix Entre Catégories (avec > 500 produits)**
 
 ![alt text](assets/heatmap_of_corr_matrix.png)
 
