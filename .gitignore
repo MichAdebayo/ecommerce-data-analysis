@@ -20,3 +20,6 @@ venv/
 
 # CSV files
 *.csv/
+
+# Docx files
+*.docx/
