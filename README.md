@@ -24,7 +24,7 @@ Ce projet analyse des données extraites d'un site e-commerce (Castorama ; pour 
 
 * `assets`: Contient les figures de visualisation des données.
 
-* `brief_pandas.ipynb`: Fichier pour exécuter les procédures de nettoyage des données, d'exploration des données, d'analyse des données et de visualisation des données. 
+* `data_analysis.ipynb`: Fichier pour exécuter les procédures de nettoyage des données, d'exploration des données, d'analyse des données et de visualisation des données. 
 
 * `requirements.txt`: Liste des dépendances Python nécessaires.
 
