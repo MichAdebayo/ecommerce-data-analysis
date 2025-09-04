@@ -10,7 +10,6 @@ Ce projet analyse des données extraites d'un site e-commerce (Castorama ; pour 
 
 - `products.csv`: Contient des détails sur les produits tels que l'identifiant unique, les catégories, les sous-catégories, les titres, les prix et les URLs.
 
-En tant qu'Analyste de Données/Ingénieur en Données, votre rôle est de nettoyer, préparer et analyser ces données afin de fournir des informations sur l'état actuel des produits de l'entreprise.
 
 ## Objectifs  
 
@@ -18,8 +17,8 @@ En tant qu'Analyste de Données/Ingénieur en Données, votre rôle est de netto
 - **Nettoyer et préparer** ces données (corriger les formats, gérer les valeurs manquantes, gérer les types de données). 
 - **Explorer les données** et extraire des informations clés (statistiques descriptives, groupby, statistiques, etc.).
 - **Mettre en forme les variables (si nécessaire)**  pour faciliter l'analyse (étiquettes de catégories, correction des prix, etc.).
-- **(Bonus 1) Analyser les prix** de manière plus approfondie en regroupant les produits par catégories et en calculant des statistiques (moyenne, min, max, etc.). 
-- **(Bonus 2) Visualiser les résultats** de votre analyse à l'aide de graphiques simples (histogramme, scatter plot, bar plot, etc.) pour mieux communiquer vos conclusions.
+- **Analyser les prix** de manière plus approfondie en regroupant les produits par catégories et en calculant des statistiques (moyenne, min, max, etc.). 
+- **Visualiser les résultats** de votre analyse à l'aide de graphiques simples (histogramme, scatter plot, bar plot, etc.) pour mieux communiquer vos conclusions.
 
 ## Structure du Projet
 
