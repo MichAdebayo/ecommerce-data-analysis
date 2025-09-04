@@ -151,4 +151,4 @@ Ce projet a permis d’obtenir des informations précieuses sur la répartition 
 
 ## Auteur
 
-- Michael Adebayo
+- Michael Adebayo ([@MichAdebayo](https://github.com/MichAdebayo))
